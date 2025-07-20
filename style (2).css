@@ -1,0 +1,19 @@
+.dark{
+  background-color: #2c2932;
+  color: white;
+}
+body{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  transition: background 0.5s, color 0.5s;
+  /*плавность: что_плавно_двигается и время */
+  text-align: center;
+  padding: 50px;
+}
+#theme{
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 15px;
+}
+#theme:hover{
+  background-color: #8d8686;
+}
